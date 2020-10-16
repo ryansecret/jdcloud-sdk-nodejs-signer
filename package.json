@@ -1,6 +1,6 @@
 {
   "name": "sdksignerbak",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sdk 签名算法",
   "main": "build/index.js",
   "types": "types/index.d.ts",
