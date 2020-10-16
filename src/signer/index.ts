@@ -6,7 +6,7 @@ import Util from "../Util";
 import {Header} from "../RequestContext";
 import {Context} from "../Context";
 
-export default class Signer {
+export  class Signer {
    private ctx:Context
    private credentials:Credentials
    private logger:(message?: any, ...optionalParams: any[])=>void

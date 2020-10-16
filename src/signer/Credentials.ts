@@ -1,6 +1,7 @@
 import {VERSION} from "./const";
 import Util from "../Util";
 import debugLog from 'debug'
+
 const debug=debugLog('signer')
 
 export interface CredentialInfo {

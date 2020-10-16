@@ -1,7 +1,7 @@
 
   import UrlParse from 'url'
   import {Header,RequestContext} from "./RequestContext";
-
+  
   export  class Context extends RequestContext{
     body:string
 
