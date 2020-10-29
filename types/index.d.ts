@@ -67,7 +67,7 @@ declare module 'signer/Credentials' {
 declare module 'signer/index' {
 	import { CredentialInfo } from 'signer/Credentials';
 	import { Context } from 'Context';
-	export default class Signer {
+	export class Signer {
 	    private ctx;
 	    private credentials;
 	    private logger;
@@ -99,6 +99,6 @@ declare module 'signer/index' {
 declare module 'index' {
 	export { Context } from 'Context';
 	export { RequestContext } from 'RequestContext';
-	export * as Signer from 'signer/index';
+	export { Signer } from 'signer/index';
 
 }
